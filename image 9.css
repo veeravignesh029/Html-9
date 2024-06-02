@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circle-container {
+    width: 500px;
+    height: 300px;
+    border-radius: 100%; 
+    overflow: hidden; 
+    padding: 30px;
+}
+
+.circle-container img {
+    width: 100%;
+    height: auto;
+}
+
+button{
+    color: blue;
+}

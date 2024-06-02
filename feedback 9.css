@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    letter-spacing: 2px;
+    width: 30%;
+    margin: 40px auto;
+    word-spacing: 1px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"], button[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(23, 187, 23, 0.904);
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover, button[type="reset"]:hover {
+    background-color: green;
+}
